@@ -38,4 +38,8 @@ p {
   .content-area {
     display: flex;
   }
+
+  .sidebar-right {
+    flex: 0 0 320px;
+  }
 }
