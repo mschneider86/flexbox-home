@@ -33,3 +33,9 @@ h1 {
 p {
   margin: 0;
 }
+
+@media screen and (min-width: 1120px) {
+  .content-area {
+    display: flex;
+  }
+}
