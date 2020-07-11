@@ -27,7 +27,7 @@ footer {
 }
 
 .sidebar-right {
-  background-color: blue;
+  background-color: #ededed;
   color: white;
 }
 
@@ -353,4 +353,16 @@ p {
   color: black;
   text-decoration: none;
   font-weight: bold;
+}
+
+@media screen and (min-width: 810px) and (max-width: 1120px) {
+  .sidebar-right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .widget {
+    flex-basis: 48.8%;
+  }
 }
