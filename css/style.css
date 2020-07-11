@@ -327,3 +327,30 @@ p {
 .gallery-img:nth-child(4n + 4) {
   flex-basis: 380px;
 }
+
+.sidebar-right {
+  padding: 2em;
+  color: black;
+}
+
+.widget {
+  background-color: white;
+  margin-bottom: 2em;
+}
+
+.widget-content {
+  padding: 0.5em 2em;
+}
+
+.sidebar-right ul {
+  list-style-type: none;
+  padding-left: 1em;
+}
+
+.sidebar-right ul a {
+  display: block;
+  padding-bottom: 0.4em;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
